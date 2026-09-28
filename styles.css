@@ -1,10 +1,12 @@
 :root {
-    --index-background-color: rgb(162, 192, 164);
-    --index-header-background-color: burlywood;
+    --background-color: rgb(162, 192, 164);
+    --header-background-color: burlywood;
+    --body-background-color: rgb(178, 205, 115);
+    --footer-background-color: rgba(77, 165, 91, 0.692);
 }
 
 html {
-    background-color: var(--index-background-color);
+    background-color: var(--background-color);
 }
 
 body {
@@ -15,11 +17,34 @@ h1 {
     margin: 0;
 }
 
+.branded-border {
+    border-bottom: 4px double rgb(250, 250, 250);
+    padding-bottom: 10px;
+}
+
 .main-header {
-    background-color: var(--index-header-background-color);
+    background-color: var(--header-background-color);
     padding: 30px;
 }
 
 nav ul {
     list-style: none;
+}
+
+.viburnums-header {
+    background-color: var(--header-background-color);
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.viburnums-main {
+    background-color: var(--body-background-color);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.viburnums-footer {
+    background-color: var(--footer-background-color);
+    padding: 30px;
 }
