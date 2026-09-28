@@ -1,3 +1,25 @@
+:root {
+    --index-background-color: rgb(162, 192, 164);
+    --index-header-background-color: burlywood;
+}
+
 html {
-    background-color: rgb(162, 192, 164);
+    background-color: var(--index-background-color);
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main-header {
+    background-color: var(--index-header-background-color);
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
 }
