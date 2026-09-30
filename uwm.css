@@ -1,0 +1,14 @@
+:root {
+    --background-color: rgb(162, 192, 164);
+    --header-background-color: burlywood;
+    --body-background-color: rgb(178, 205, 115);
+    --footer-background-color: rgba(77, 165, 91, 0.692);
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0;
+}
